@@ -1,0 +1,26 @@
+<div class="course-card">
+  <span *ngIf="data.price !== null" [ngClass]="{'status' : true,'del':!!data.deletedPrice, 'free':data.price ==0}">
+    <del *ngIf='!!data.deletedPrice && !!data.price'>{{data.deletedPrice}}</del>
+    {{data.price===0? 'مجانا': data.price+' د.آ '}}
+  </span>
+  <mat-card>
+    <img mat-card-image [src]="data.courseImage">
+
+    <mat-card-content>
+      <div class="teather-picture">
+        <img [src]="data.teatherImage">
+      </div>
+      <br>
+
+      <span>{{data.courseName}} </span>
+      <p>
+        {{data.description}}
+      </p>
+      <span class="vedio-container">
+        {{data.numberOfVedio}}
+        <mat-icon color="primary">menu</mat-icon>
+      </span>
+    </mat-card-content>
+  </mat-card>
+  <mat-progress-bar mode="determinate" [value]="data.vedioViewed" *ngIf='data.vedioViewed'></mat-progress-bar>
+</div>

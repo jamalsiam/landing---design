@@ -1,0 +1,32 @@
+<section class="teatcher-container">
+  <div class="wrapper flex">
+    <div class="info-area">
+      <h1>معلموا حصص اونلاين</h1>
+      <p>نخبة من أمهر المعلمين في الأردن</p>
+      <div class="btn-controler">
+        <button mat-raised-button (click)='nextPage()' [disabled]='!viewNextButton'>.</button>
+        <button mat-raised-button (click)='previousPage()' [disabled]='!viewPreviousButton'>.</button>
+
+      </div>
+    </div>
+    <div class="slider-area">
+
+      <div class="card-container" #cardContainer [@shift]="{value: currentState, params: {shiftValue: shiftValue}}">
+        <div class="card-content" #card *ngFor="let item of data ">
+          <mat-card class="teather-card" >
+            <mat-card-content class="card-content-image">
+              <img mat-card-image [src]="item.image" [alt]="item.name">
+            </mat-card-content>
+
+            <mat-card-content>
+              <p class="name"> {{item.name}}</p>
+              <p class="desc"> {{item.description}}</p>
+            </mat-card-content>
+          </mat-card>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
