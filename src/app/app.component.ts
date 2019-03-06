@@ -7,7 +7,7 @@ import { CourseCardVM } from './course-card/model/courseCard.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  statusSearchMobileBox: boolean;
+
   teatherList = [
     { name: '1', description: 'معلم أول تاريخ', image: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg' },
     { name: '2', description: 'معلم أول تاريخ', image: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg' },
@@ -112,7 +112,5 @@ export class AppComponent {
   ]
 
 
-  changeSearchMobileStatus(status: boolean) {
-    this.statusSearchMobileBox = status;
-  }
+
 }

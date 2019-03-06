@@ -13,6 +13,7 @@ import { CourseInAllMaterialComponent } from './course-in-all-material/course-in
 import { CourseListComponent } from './course-list/course-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ToolbarHeaderComponent } from './toolbar-header/toolbar-header.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     CourseInAllMaterialComponent,
     CourseListComponent,
     FooterComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ToolbarHeaderComponent
   ],
   imports: [
     BrowserModule,

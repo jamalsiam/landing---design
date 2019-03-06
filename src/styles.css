@@ -83,7 +83,7 @@ body * {
     width: 275px;
   }
   .search-mobile-box {
-    display: block !important;
+    display: flex !important;
   }
 }
 

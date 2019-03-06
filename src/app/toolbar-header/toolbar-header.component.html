@@ -1,0 +1,91 @@
+<section *ngIf='statusSearchMobileBox' class="search-mobile-box">
+  <div>
+    <button class="close" (click)="changeSearchMobileStatus(false)">x</button>
+    <div class="spacer"></div>
+    <p>ماذا تريد أن تدرس اليوم </p>
+  </div>
+  <div>
+    <button>
+      <mat-icon color="primary" mat-stroked-button>search</mat-icon>
+    </button>
+    <input type="text" placeholder="ماذا تريد أن تدرس ">
+  </div>
+</section>
+
+
+<mat-toolbar class="toolbar-mobile">
+
+  <div class="row-area flex">
+    <mat-drawer-container class="more-container" autosize>
+      <mat-drawer #drawer class="more-sidenav" mode="side">
+        <span class="more-sidenav-header">
+          <mat-icon color="primary">apps</mat-icon>
+          <span>الدورات</span>
+          <span class="spacer"></span>
+          <mat-icon color="primary" (click)="drawer.toggle()">Arrow</mat-icon>
+        </span>
+        <mat-divider></mat-divider>
+        <nav>
+          <ul>
+            <li>
+              <mat-icon color="primary">apps</mat-icon>
+              <span>انشاء حساب</span>
+            </li>
+
+            <li>
+              <mat-icon color="primary">apps</mat-icon>
+              <span>انشاء حساب</span>
+            </li>
+
+            <li>
+              <mat-icon color="primary">apps</mat-icon>
+              <span>انشاء حساب</span>
+            </li>
+          </ul>
+        </nav>
+      </mat-drawer>
+    </mat-drawer-container>
+
+    <button type="button" mat-button (click)="drawer.toggle()">
+      <mat-icon color="primary">menu</mat-icon>
+    </button>
+
+    <span class="spacer"></span>
+    <span class="logo">
+      حصص اونلاين
+    </span>
+    <span class="spacer"></span>
+
+    <button type="button" mat-button (click)="changeSearchMobileStatus(true)">
+      <mat-icon color="primary">search</mat-icon>
+    </button>
+
+  </div>
+</mat-toolbar>
+
+
+<mat-toolbar class="toolbar">
+  <div class="row-area flex">
+    <span class="logo">
+      حصص اونلاين
+    </span>
+    <div class="course">
+      <button mat-button class="course-btn" [matMenuTriggerFor]="menu">
+        <mat-icon>apps</mat-icon>
+        الدورات
+      </button>
+
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+
+    </div>
+    <input type="text" class="search-box" placeholder='ماذا تريد أن تدرس اليوم؟'>
+
+    <span class="spacer"></span>
+
+    <button mat-stroked-button color="primary" class="btn login-btn">تسجيل دخول</button>
+  </div>
+
+</mat-toolbar>

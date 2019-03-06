@@ -1,0 +1,99 @@
+.search-mobile-box {
+  display: none;
+  background: #ececec;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  z-index: 1;
+  border-bottom: 1px solid #d4d4d4;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.search-mobile-box .close{
+  background: none;
+  border: none;
+  font-size: 17px;
+}
+.search-mobile-box > div {
+  flex: 1;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.search-mobile-box > div > button {
+  flex-basis: 40px;
+  cursor: pointer;
+}
+.search-mobile-box input{
+  flex: 1;
+}
+
+/* toolbar mobile */
+.toolbar-mobile .more-container {
+  background: transparent;
+  width: 0px;
+}
+
+.toolbar-mobile .more-container mat-icon {
+  margin: 0px 10px;
+}
+.toolbar-mobile .more-container .more-sidenav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: white;
+  width: 285px;
+}
+.toolbar-mobile .more-container .more-sidenav-header {
+  display: flex;
+  align-items: center;
+  height: 55px;
+}
+
+.toolbar-mobile .more-container nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+}
+.toolbar-mobile .more-container nav ul li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+/* toolbar */
+.toolbar,
+.toolbar-mobile {
+  background: transparent;
+}
+
+.toolbar-mobile {
+  padding: 20px 0px;
+  display: none;
+}
+.toolbar .login-btn {
+  background: white;
+  height: 45px;
+  width: 140px;
+  flex-shrink: 0;
+}
+.toolbar .search-box {
+  background: url("./../../assets/image/search.png") #edeff1 no-repeat calc(100% - 10px);
+  border: none;
+  height: 40px;
+  width: 350px;
+  box-sizing: border-box;
+  padding: 0px 44px;
+  margin: 0px 10px;
+}
+.toolbar .course {
+  margin: 0px 10px;
+}
+
+.toolbar .course button {
+  font-size: 17px;
+}
+.toolbar .logo {
+  font-size: 20px;
+  font-weight: 700;
+}
