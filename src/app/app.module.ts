@@ -9,13 +9,15 @@ import { MaterialModule } from './material';
 import { TeatherListComponent } from './teather-list/teather-list.component';
 import { CourseCardComponent } from './course-card/course-card.component';
 import { HeaderComponent } from './header/header.component';
+import { CourseInAllMaterialComponent } from './course-in-all-material/course-in-all-material.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TeatherListComponent,
     CourseCardComponent,
-    HeaderComponent
+    HeaderComponent,
+    CourseInAllMaterialComponent
   ],
   imports: [
     BrowserModule,

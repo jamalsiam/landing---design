@@ -1,136 +1,6 @@
 .main {
   background: url("./../assets/image/bgStudant.png") no-repeat no-repeat;
   background-size: 575px;
-  height: 100vh;
-}
-.main .search-mobile-box {
-  display: none;
-  background: beige;
-  position: fixed;
-  width: 100%;
-  height: 75px;
-  z-index: 1;
-}
-/* toolbar mobile */
-.toolbar-mobile .more-container {
-  background: transparent;
-  width: 0px;
-}
-
-.toolbar-mobile .more-container mat-icon {
-  margin: 0px 10px;
-}
-.toolbar-mobile .more-container .more-sidenav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background: white;
-  width: 285px;
-}
-.toolbar-mobile .more-container .more-sidenav-header {
-  display: flex;
-  align-items: center;
-  height: 55px;
-}
-
-.toolbar-mobile .more-container nav ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0;
-}
-.toolbar-mobile .more-container nav ul li {
-  display: flex;
-  align-items: center;
-  height: 50px;
-}
-
-/* toolbar */
-.main .toolbar,
-.main .toolbar-mobile {
-  background: transparent;
-}
-
-.main .toolbar-mobile {
-  padding: 20px 0px;
-  display: none;
-}
-.main .toolbar .login-btn {
-  background: white;
-  height: 45px;
-  width: 140px;
-  flex-shrink: 0;
-}
-.main .toolbar .search-box {
-  background: url("./../assets/image/search.png") #edeff1 no-repeat calc(100% - 10px);
-  border: none;
-  height: 40px;
-  width: 350px;
-  box-sizing: border-box;
-  padding: 0px 44px;
-  margin: 0px 10px;
-}
-.main .toolbar .course {
-  margin: 0px 10px;
-}
-
-.main .toolbar .course button {
-  font-size: 17px;
-}
-.main .toolbar .logo {
-  font-size: 20px;
-  font-weight: 700;
-}
-/* info */
-.main .info {
-  float: right;
-  margin: 130px 0px 200px;
-  width: 550px;
-}
-.clear-both::after {
-  clear: both;
-}
-.main .info .title-info {
-  font-size: 50px;
-  color: black;
-}
-.main .info button {
-  width: 170px;
-  height: 60px;
-  margin: 5px;
-}
-
-.main .courses-section .courses-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.main .courses-section .courses-container button {
-  width: 255px;
-  height: 110px;
-  margin: 10px 1px;
-}
-
-.main .courses-section .courses-container .btn-content {
-  display: flex;
-  height: 100%;
-  align-items: center;
-}
-
-.main .courses-section .courses-container mat-icon {
-  font-size: 36px;
-  flex: 1;
-  position: relative;
-  bottom: 5px;
-}
-.main .courses-section .courses-container span {
-  flex: 3;
-  text-align: right;
-}
-
-.main .courses-section .courses-container .course-name {
-  font-size: 25px;
-  margin: 10px 0px;
 }
 
 /* teacher area*/
@@ -141,24 +11,24 @@
 }
 
 /* course List */
-.main .course-list .btn {
+.course-list .btn {
   margin: auto;
   display: block;
   width: 250px;
   height: 60px;
 }
-.main .course-list .course-card-container {
+.course-list .course-card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 /*footer*/
 
-.main .footer-container article {
+.footer-container article {
   display: flex;
   margin-bottom: 30px;
 }
-.main .footer-container article mat-icon {
+.footer-container article mat-icon {
   color: white;
   background: #0091f1;
   width: 60px;
@@ -195,95 +65,4 @@ footer .btn {
 .about-us .all-rights-are-save {
   text-align: center;
   font-size: 14px;
-}
-/* responsive */
-
-/* desktops */
-@media only screen and (max-width: 1200px) {
-  .row-area {
-    width: 90%;
-  }
-}
-
-/* laptops */
-@media only screen and (max-width: 992px) {
-  .row-area {
-    width: 95%;
-  }
-}
-
-/* tablets */
-@media only screen and (max-width: 768px) {
-  .toolbar {
-    display: none;
-  }
-  .toolbar-mobile {
-    display: block !important;
-  }
-  .info {
-    float: none !important;
-    text-align: center;
-    width: unset !important;
-  }
-  .info p {
-    display: none;
-  }
-  .main .footer-container {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-  .main .footer-container article {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about-us ul {
-    width: 275px;
-  }
-  .main .search-mobile-box {
-    display: block !important;
-  }
-}
-
-/* phones */
-@media only screen and (max-width: 600px) {
-  .info button {
-    width: 100% !important;
-    margin: 5px 0px !important;
-  }
-  .courses-container {
-    justify-content: space-evenly !important;
-  }
-  .courses-section button {
-    width: 160px !important;
-    height: 180px !important;
-  }
-  .courses-section button .btn-content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .courses-section button .btn-content span {
-    text-align: unset !important;
-  }
-
-  .courses-section button .btn-content mat-icon {
-    bottom: -15px !important;
-  }
-
-  .main .info .title-info {
-    color: white;
-    padding: 0px 10px;
-  }
-}
-
-@media only screen and (max-width: 922px) {
-  .main .course-card-container {
-    justify-content: space-evenly !important;
-  }
-}
-mat-icon {
-  cursor: pointer;
 }

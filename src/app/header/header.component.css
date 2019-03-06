@@ -1,0 +1,97 @@
+
+header .search-mobile-box {
+  display: none;
+  background: beige;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  z-index: 1;
+}
+/* toolbar mobile */
+.toolbar-mobile .more-container {
+  background: transparent;
+  width: 0px;
+}
+
+.toolbar-mobile .more-container mat-icon {
+  margin: 0px 10px;
+}
+.toolbar-mobile .more-container .more-sidenav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: white;
+  width: 285px;
+}
+.toolbar-mobile .more-container .more-sidenav-header {
+  display: flex;
+  align-items: center;
+  height: 55px;
+}
+
+.toolbar-mobile .more-container nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+}
+.toolbar-mobile .more-container nav ul li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+/* toolbar */
+header .toolbar,
+header .toolbar-mobile {
+  background: transparent;
+}
+
+header .toolbar-mobile {
+  padding: 20px 0px;
+  display: none;
+}
+header .toolbar .login-btn {
+  background: white;
+  height: 45px;
+  width: 140px;
+  flex-shrink: 0;
+}
+header .toolbar .search-box {
+  background: url("./../../assets/image/search.png") #edeff1 no-repeat calc(100% - 10px);
+  border: none;
+  height: 40px;
+  width: 350px;
+  box-sizing: border-box;
+  padding: 0px 44px;
+  margin: 0px 10px;
+}
+header .toolbar .course {
+  margin: 0px 10px;
+}
+
+header .toolbar .course button {
+  font-size: 17px;
+}
+header .toolbar .logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* info */
+header .info {
+  float: right;
+  margin: 130px 0px 200px;
+  width: 550px;
+}
+.clear-both::after {
+  clear: both;
+}
+header .info .title-info {
+  font-size: 50px;
+  color: black;
+}
+header .info button {
+  width: 170px;
+  height: 60px;
+  margin: 5px;
+}

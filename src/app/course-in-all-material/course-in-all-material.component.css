@@ -1,0 +1,33 @@
+.courses-section .courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.courses-section .courses-container button {
+  width: 255px;
+  height: 110px;
+  margin: 10px 1px;
+}
+
+.courses-section .courses-container .btn-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.courses-section .courses-container mat-icon {
+  font-size: 36px;
+  flex: 1;
+  position: relative;
+  bottom: 5px;
+}
+.courses-section .courses-container span {
+  flex: 3;
+  text-align: right;
+}
+
+.courses-section .courses-container .course-name {
+  font-size: 25px;
+  margin: 10px 0px;
+}
