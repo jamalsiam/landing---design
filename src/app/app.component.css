@@ -91,6 +91,7 @@
 }
 .main .info .title-info {
   font-size: 50px;
+  color: black;
 }
 .main .info button {
   width: 170px;
@@ -188,6 +189,7 @@ footer .btn {
 
 .about-us ul li {
   margin: 0px 15px;
+  cursor: pointer;
 }
 
 .about-us .all-rights-are-save {
@@ -269,6 +271,11 @@ footer .btn {
 
   .courses-section button .btn-content mat-icon {
     bottom: -15px !important;
+  }
+
+  .main .info .title-info {
+    color: white;
+    padding: 0px 10px;
   }
 }
 

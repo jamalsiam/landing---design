@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { MaterialModule } from './material';
 import { TeatherListComponent } from './teather-list/teather-list.component';
 import { CourseCardComponent } from './course-card/course-card.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TeatherListComponent,
-    CourseCardComponent
+    CourseCardComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
