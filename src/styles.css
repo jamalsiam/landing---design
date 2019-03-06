@@ -10,6 +10,11 @@ body * {
 }
 
 /* common */
+.gray-area {
+  background: #eaeff1;
+  margin: 30px 0px;
+  padding: 30px;
+}
 .row-area {
   width: 1110px;
   margin: auto;

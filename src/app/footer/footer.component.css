@@ -1,0 +1,23 @@
+.footer-container article {
+  display: flex;
+  margin-bottom: 30px;
+}
+.footer-container article mat-icon {
+  color: white;
+  background: #0091f1;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 20px;
+}
+
+footer .btn {
+  margin: auto;
+  display: block;
+  width: 250px;
+  height: 60px;
+}

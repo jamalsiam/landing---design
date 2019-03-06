@@ -1,0 +1,18 @@
+.about-us ul {
+  margin: 20px auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-us ul li {
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.about-us .all-rights-are-save {
+  text-align: center;
+  font-size: 14px;
+}

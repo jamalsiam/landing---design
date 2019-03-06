@@ -10,6 +10,9 @@ import { TeatherListComponent } from './teather-list/teather-list.component';
 import { CourseCardComponent } from './course-card/course-card.component';
 import { HeaderComponent } from './header/header.component';
 import { CourseInAllMaterialComponent } from './course-in-all-material/course-in-all-material.component';
+import { CourseListComponent } from './course-list/course-list.component';
+import { FooterComponent } from './footer/footer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { CourseInAllMaterialComponent } from './course-in-all-material/course-in
     TeatherListComponent,
     CourseCardComponent,
     HeaderComponent,
-    CourseInAllMaterialComponent
+    CourseInAllMaterialComponent,
+    CourseListComponent,
+    FooterComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,6 @@
-<section>
-<app-header></app-header>
-<app-course-in-all-material></app-course-in-all-material>
+<section class="main">
+  <app-header></app-header>
+  <app-course-in-all-material></app-course-in-all-material>
 
 
 
@@ -10,83 +10,10 @@
     </div>
   </section>
 
-
-  <section class="row-area course-list">
-    <p class="title-section">دورات حصص اونلاين</p>
-    <div class="course-card-container">
-      <app-course-card *ngFor='let item of courseList' [data]='item'> </app-course-card>
-    </div>
-    <button mat-stroked-button color="primary" class="btn">
-      تصفح الدورات
-    </button>
-  </section>
-
-  <footer class="gray-area ">
-    <p class="title-section">دورات حصص اونلاين</p>
-    <div class="row-area flex  footer-container">
+  <app-course-list [list]='courseList'></app-course-list>
 
 
-      <article>
-        <mat-icon>apps</mat-icon>
-        <div>
-          <h1>asd asd asd</h1>
-          <p>asdasf asfsfs wefwefe wfewef wefewefe wefwefew wefwef </p>
-        </div>
+<app-footer></app-footer>
 
-      </article>
-
-
-      <article>
-        <mat-icon>apps</mat-icon>
-        <div>
-          <h1>asd asd asd</h1>
-          <p>asdasf asfsfs wefwefe wfewef wefewefe wefwefew wefwef </p>
-        </div>
-
-      </article>
-
-
-      <article>
-        <mat-icon>apps</mat-icon>
-        <div>
-          <h1>asd asd asd</h1>
-          <p>asdasf asfsfs wefwefe wfewef wefewefe wefwefew wefwef </p>
-        </div>
-
-      </article>
-    </div>
-
-    <button mat-flat-button color="primary" class="btn">
-      سجل الان
-    </button>
-  </footer>
-
-  <section class="about-us">
-
-    <ul>
-      <li><a>تواصل معا </a></li>
-      <li><a> شروط تواصل معنا</a></li>
-      <li><a>سياسة الخصوصية </a></li>
-      <li><a> درس معنا</a></li>
-      <li><a> عن حصص اونلاين</a></li>
-    </ul>
-
-
-
-    <ul>
-      <li><a>
-          <mat-icon color="primary">apps</mat-icon>
-        </a></li>
-      <li><a>
-          <mat-icon color="primary">apps</mat-icon>
-        </a></li>
-      <li><a>
-          <mat-icon color="primary">apps</mat-icon>
-        </a></li>
-      <li><a>
-          <mat-icon color="primary">apps</mat-icon>
-        </a></li>
-    </ul>
-    <p class="all-rights-are-save"> 2019 ○ جميع الحقوق محفوظة</p>
-  </section>
+ <app-about-us></app-about-us>
 </section>

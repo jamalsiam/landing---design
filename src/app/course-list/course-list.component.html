@@ -1,0 +1,9 @@
+<section class="row-area course-list">
+  <p class="title-section">دورات حصص اونلاين</p>
+  <div class="course-card-container">
+    <app-course-card *ngFor='let item of courseList' [data]='item'> </app-course-card>
+  </div>
+  <button mat-stroked-button color="primary" class="btn">
+    تصفح الدورات
+  </button>
+</section>

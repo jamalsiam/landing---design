@@ -1,0 +1,12 @@
+/* course List */
+.course-list .btn {
+  margin: auto;
+  display: block;
+  width: 250px;
+  height: 60px;
+}
+.course-list .course-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
