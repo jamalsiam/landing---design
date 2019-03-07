@@ -7,8 +7,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatCardModule } from '@angular/material/card';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
-import {MatFormFieldModule} from '@angular/material/form-field';
-
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatTabsModule } from '@angular/material/tabs';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -22,7 +23,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatDividerModule,
     MatCardModule,
     MatProgressBarModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatTabsModule,
+    MatGridListModule
   ],
 
   exports: [
@@ -35,7 +38,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatDividerModule,
     MatCardModule,
     MatProgressBarModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatTabsModule,
+    MatGridListModule
   ],
 
 })

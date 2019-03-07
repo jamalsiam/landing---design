@@ -14,6 +14,8 @@ import { CourseListComponent } from './course-list/course-list.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ToolbarHeaderComponent } from './toolbar-header/toolbar-header.component';
+import { LandingComponent } from './landing/landing.component';
+import { MycoruseComponent } from './mycoruse/mycoruse.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ToolbarHeaderComponent } from './toolbar-header/toolbar-header.componen
     CourseListComponent,
     FooterComponent,
     AboutUsComponent,
-    ToolbarHeaderComponent
+    ToolbarHeaderComponent,
+    LandingComponent,
+    MycoruseComponent
   ],
   imports: [
     BrowserModule,
