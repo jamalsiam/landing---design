@@ -31,29 +31,29 @@
   align-items: center;
 }
 .status{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: #0091f1;
-    min-width: 30px;
-    text-align: left;
-    font-size: 23px;
-    display: inline-block;
-    z-index: 1;
-    border-radius: 5px;
-    color: white;
-    padding: 0px 10px;
+  position: absolute;
+  top: 10px;
+  left: -3px;
+  background: #0091f178;
+  min-width: 30px;
+  text-align: left;
+  font-size: 15px;
+  display: inline-block;
+  z-index: 1;
+  border-bottom-right-radius: 20px;
+  color: white;
+  padding: 0px 10px;
 }
 
 .status del{
     color:#ffcecf;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
 }
 
 .status.del{
-    background: #ff4246;
+    background: #ff42469c;
 }
 .status.free{
-    background: #00cd3d !important;
+    background: #00cd3d6e !important;
 }

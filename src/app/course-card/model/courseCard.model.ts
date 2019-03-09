@@ -6,5 +6,6 @@ export interface CourseCardVM {
     numberOfVedio: number,
     price: number | null,
     deletedPrice?: number,
-    vedioViewed?: number
+    vedioViewed?: number,
+    teacherName: string
 }

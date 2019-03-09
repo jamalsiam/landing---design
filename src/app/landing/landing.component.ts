@@ -38,6 +38,7 @@ export class LandingComponent implements OnInit {
   courseList: CourseCardVM[] = [
     {
       courseImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg',
+      teacherName:'xxxxxx xxxxxxx',
       courseName: 'asd asd',
       deletedPrice: 57,
       price: 0,
@@ -48,6 +49,7 @@ export class LandingComponent implements OnInit {
     },
     {
       courseImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg',
+      teacherName:'xxxxxx xxxxxxx',
       courseName: 'asd asd',
       // deletedPrice: 57,
       price: 22,
@@ -58,6 +60,7 @@ export class LandingComponent implements OnInit {
     },
     {
       courseImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg',
+      teacherName:'xxxxxx xxxxxxx',
       courseName: 'asd asd',
       deletedPrice: 57,
       price: null,
@@ -68,6 +71,7 @@ export class LandingComponent implements OnInit {
     },
     {
       courseImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg',
+      teacherName:'xxxxxx xxxxxxx',
       courseName: 'asd asd',
       deletedPrice: 57,
       price: 22,
@@ -78,6 +82,7 @@ export class LandingComponent implements OnInit {
     },
     {
       courseImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg',
+      teacherName:'xxxxxx xxxxxxx',
       courseName: 'asd asd',
       deletedPrice: 124,
       price: 22,
@@ -88,6 +93,7 @@ export class LandingComponent implements OnInit {
     },
     {
       courseImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg',
+      teacherName:'xxxxxx xxxxxxx',
       courseName: 'asd asd',
       deletedPrice: 57,
       price: 22,
@@ -98,6 +104,7 @@ export class LandingComponent implements OnInit {
     },
     {
       courseImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg',
+      teacherName:'xxxxxx xxxxxxx',
       courseName: 'asd asd',
       price: 233,
       description: 'asfd asfd asfd safdfdasfd asdfsdf saddf',
@@ -106,6 +113,7 @@ export class LandingComponent implements OnInit {
     },
     {
       courseImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg',
+      teacherName:'xxxxxx xxxxxxx',
       courseName: 'asd asd',
       deletedPrice: 57,
       price: 22,

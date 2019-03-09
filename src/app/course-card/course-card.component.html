@@ -16,10 +16,13 @@
       <p>
         {{data.description}}
       </p>
+      <p>{{data.teacherName}} </p>
       <span class="vedio-container">
         {{data.numberOfVedio}}
         <mat-icon color="primary">menu</mat-icon>
       </span>
+
+      
     </mat-card-content>
   </mat-card>
   <mat-progress-bar mode="determinate" [value]="data.vedioViewed" *ngIf='data.vedioViewed'></mat-progress-bar>

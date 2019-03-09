@@ -18,6 +18,7 @@ export class MycoruseComponent implements OnInit {
       price: 0,
       vedioViewed: 50,
       description: 'asfd asfd asfd safdfdasfd asdfsdf saddf',
+      teacherName:'xxxxxx xxxxxxx',
       numberOfVedio: 17,
       teatherImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg'
     },
@@ -28,6 +29,7 @@ export class MycoruseComponent implements OnInit {
       price: 22,
       // vedioViewed: 50,
       description: 'asfd asfd asfd safdfdasfd asdfsdf saddf',
+      teacherName:'xxxxxx xxxxxxx',
       numberOfVedio: 28,
       teatherImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg'
     },
@@ -39,6 +41,7 @@ export class MycoruseComponent implements OnInit {
       vedioViewed: 50,
       description: 'asfd asfd asfd safdfdasfd asdfsdf saddf',
       numberOfVedio: 17,
+      teacherName:'xxxxxx xxxxxxx',
       teatherImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg'
     },
     {
@@ -49,6 +52,7 @@ export class MycoruseComponent implements OnInit {
       vedioViewed: 50,
       description: 'asfd asfd asfd safdfdasfd asdfsdf saddf',
       numberOfVedio: 17,
+      teacherName:'xxxxxx xxxxxxx',
       teatherImage: 'http://wbievents.com/conference/second-brand-protection/images/speaker/matteo%20mattei.jpg'
     }
   ]
