@@ -91,6 +91,9 @@ body * {
     flex-direction: column;
     align-items: unset !important;
   }
+  .search-form >* {
+    flex-basis: unset !important;
+  }
 }
 
 /* phones */

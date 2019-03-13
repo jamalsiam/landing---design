@@ -33,3 +33,6 @@
   border-radius: 5px;
   box-sizing: border-box;
 }
+.search-form >* {
+  flex-basis: 215px;
+}
