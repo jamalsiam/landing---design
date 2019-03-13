@@ -20,9 +20,13 @@
   border: none;
   color: #b1b9e6;
   border-radius: 0;
+  width: 160px;
+  padding: 4px;
+  margin: -7px 1px;
 }
 .btn-filter.active{
   border-bottom: 3px solid white;
+  color: white !important;
 }
 .search-form {
   background: white;
