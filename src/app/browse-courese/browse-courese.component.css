@@ -1,0 +1,32 @@
+.course-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gray-area {
+  margin: unset;
+}
+.filter-container {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 0px;
+}
+.btn-filter {
+  left: 0;
+  position: absolute;
+  top: 12px;
+  border: none;
+  color: #b1b9e6;
+}
+
+.search-form {
+  background: white;
+  padding: 5px 26px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-sizing: border-box;
+}

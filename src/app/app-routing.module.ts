@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LandingComponent } from './landing/landing.component';
 import { MycoruseComponent } from './mycoruse/mycoruse.component';
+import { BrowseCoureseComponent } from './browse-courese/browse-courese.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,11 @@ const routes: Routes = [
   {
     path: 'mycourse',
     component: MycoruseComponent
+  }
+  ,  
+  {
+    path: 'browse-courese',
+    component: BrowseCoureseComponent
   }
 ];
 

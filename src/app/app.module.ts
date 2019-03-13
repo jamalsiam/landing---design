@@ -16,6 +16,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ToolbarHeaderComponent } from './toolbar-header/toolbar-header.component';
 import { LandingComponent } from './landing/landing.component';
 import { MycoruseComponent } from './mycoruse/mycoruse.component';
+import { BrowseCoureseComponent } from './browse-courese/browse-courese.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { MycoruseComponent } from './mycoruse/mycoruse.component';
     AboutUsComponent,
     ToolbarHeaderComponent,
     LandingComponent,
-    MycoruseComponent
+    MycoruseComponent,
+    BrowseCoureseComponent
   ],
   imports: [
     BrowserModule,

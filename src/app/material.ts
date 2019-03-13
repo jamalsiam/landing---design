@@ -10,6 +10,8 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTabsModule } from '@angular/material/tabs';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatInputModule} from '@angular/material/input';
+import {MatSliderModule} from '@angular/material/slider';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatProgressBarModule,
     MatFormFieldModule,
     MatTabsModule,
-    MatGridListModule
+    MatGridListModule,
+    MatInputModule,
+    MatSliderModule
   ],
 
   exports: [
@@ -40,7 +44,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatProgressBarModule,
     MatFormFieldModule,
     MatTabsModule,
-    MatGridListModule
+    MatGridListModule,
+    MatInputModule,
+    MatSliderModule
   ],
 
 })
