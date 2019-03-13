@@ -15,7 +15,7 @@
 <div class="position-relative">
   <div class="filter-container">
     <div class="row-area position-relative">
-      <button class="btn-filter" mat-stroked-button (click)='viewSearchBox()'>search</button>
+      <button class="btn-filter" [ngClass]='{"active":searchBoxStatus ,"btn-filte":true}' mat-stroked-button (click)='viewSearchBox()'>search</button>
     </div>
 
   </div>
@@ -25,7 +25,7 @@
     <mat-tab label="First">
       <div class="gray-area">
 
-        <form *ngIf='!searchBoxStatus' class="search-form mat-elevation-z2 row-area" >
+        <form *ngIf='searchBoxStatus' class="search-form mat-elevation-z2 row-area" >
           <mat-form-field class="example-full-width">
             <input matInput placeholder="Favorite food" value="Sushi">
           </mat-form-field>

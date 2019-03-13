@@ -19,8 +19,11 @@
   top: 12px;
   border: none;
   color: #b1b9e6;
+  border-radius: 0;
 }
-
+.btn-filter.active{
+  border-bottom: 3px solid white;
+}
 .search-form {
   background: white;
   padding: 5px 26px;
