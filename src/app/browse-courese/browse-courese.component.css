@@ -35,4 +35,5 @@
 }
 .search-form >* {
   flex-basis: 215px;
+  padding: 0px 10px;
 }
