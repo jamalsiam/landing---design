@@ -17,6 +17,12 @@ import { ToolbarHeaderComponent } from './toolbar-header/toolbar-header.componen
 import { LandingComponent } from './landing/landing.component';
 import { MycoruseComponent } from './mycoruse/mycoruse.component';
 import { BrowseCoureseComponent } from './browse-courese/browse-courese.component';
+import { NotRegisterStudentComponent } from './not-register-student/not-register-student.component';
+import { ToolbarNotRegisterComponent } from './not-register-student/toolbar-not-register/toolbar-not-register.component';
+import { RatingModule } from 'ng-starrating';
+import { CardNotRegisterComponent } from './not-register-student/card-not-register/card-not-register.component';
+import { CousreContentComponent } from './not-register-student/cousre-content/cousre-content.component';
+
 
 @NgModule({
   declarations: [
@@ -31,14 +37,20 @@ import { BrowseCoureseComponent } from './browse-courese/browse-courese.componen
     ToolbarHeaderComponent,
     LandingComponent,
     MycoruseComponent,
-    BrowseCoureseComponent
+    BrowseCoureseComponent,
+    NotRegisterStudentComponent,
+    ToolbarNotRegisterComponent,
+    CardNotRegisterComponent,
+    CousreContentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
+    RatingModule
+     
   ],
   providers: [],
   bootstrap: [AppComponent]

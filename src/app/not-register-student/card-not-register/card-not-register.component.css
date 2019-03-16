@@ -1,0 +1,47 @@
+.image-container {
+  margin: auto;
+  position: relative;
+  height: 265px;
+  width: 406px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.image-container .cousre-image {
+  height: 100%;
+  width: 100%;
+  margin: 0px !important;
+}
+.image-container .overlay {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: #10a2ff4a;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.image-container .overlay mat-icon {
+  background: #3f51b5;
+  display: block;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+}
+
+mat-card-content {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 20px;
+}
+mat-card-content > * {
+  margin: 0px 15px;
+}
+.buy-now-btn {
+  width: 100%;
+  height: 60px;
+}
