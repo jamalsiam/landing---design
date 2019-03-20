@@ -22,6 +22,8 @@ import { ToolbarNotRegisterComponent } from './not-register-student/toolbar-not-
 import { RatingModule } from 'ng-starrating';
 import { CardNotRegisterComponent } from './not-register-student/card-not-register/card-not-register.component';
 import { CousreContentComponent } from './not-register-student/cousre-content/cousre-content.component';
+import { CommentComponent } from './comment/comment.component';
+import { CommentContainerComponent } from './comment-container/comment-container.component';
 
 
 @NgModule({
@@ -41,7 +43,9 @@ import { CousreContentComponent } from './not-register-student/cousre-content/co
     NotRegisterStudentComponent,
     ToolbarNotRegisterComponent,
     CardNotRegisterComponent,
-    CousreContentComponent
+    CousreContentComponent,
+    CommentComponent,
+    CommentContainerComponent
   ],
   imports: [
     BrowserModule,

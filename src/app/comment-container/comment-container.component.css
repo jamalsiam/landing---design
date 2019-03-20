@@ -1,0 +1,20 @@
+.x-area {
+  max-width: 830px;
+  width: 100%;
+  margin: auto;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+}
+.flex-1 {
+  flex: 1;
+}
+.center {
+  margin: auto;
+  display: block;
+}
+mat-icon{
+  font-size: 20px;
+}
